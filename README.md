@@ -1,6 +1,6 @@
 # react-landing-pages
 A collection of landing pages for react.js
 
-At the moment I only have on landing page but more to come... It's a weekend project ;)
+At the moment there's only one landing page but more are to come. It's a weekend project...
 
 To be continued...
