@@ -1,0 +1,32 @@
+@import 'variables';
+
+.modal-overlay {
+ z-index: 1000;
+ position:fixed;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ background-color: rgba(132, 122, 122, 0.75);
+ overflow-y: scroll;
+
+  .modal-container {
+    margin-top:100px;
+    width: 500px;
+    padding: 50px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+
+    .modal {
+      &:focus {
+        outline:0 !important;
+      }
+    }
+
+    &.modal-hidden {
+      z-index: -2;
+    }
+  }
+}

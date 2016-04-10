@@ -1,0 +1,211 @@
+@import 'variables';
+
+h1 {
+	color: orange;
+}
+html {
+	font-size: 16px;
+	&.wf-active {
+		font-family: "Droid Sans";
+		.logo {
+			font-family: 'Indie Flower', cursive;
+			font-size: 1.6rem;
+		}
+	}
+	&.wf-inactive {
+		font-family: "Georgia, serif";
+	}
+}
+body {
+	font-size: 1rem;
+	margin: 0;
+}
+
+.noscroll {
+	overflow:hidden;
+}
+
+/* unvisited link */
+a:link {
+  color: $color-link-white;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: $color-link-visited-light;
+}
+
+/* mouse over link */
+a:hover {
+    color:#B2DFDB;
+}
+
+/* selected link */
+a:active {
+    color: #004D40;
+}
+
+h1,h2,h3,h4,h5 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid $color-grey;
+}
+
+.separator {
+	height: 34px;
+	position: relative;
+	margin: -23px auto -10px;
+	width: 100%;
+	text-align: center;
+
+	span {
+		display: inline-block;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+	}
+
+	hr {
+		margin-top: -8px;
+	}
+}
+
+.single-separator {
+	position: relative;
+	width: 100%;
+	text-align: center;	
+}
+
+.btn {
+	display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 16px;
+    font-size: 13px;
+    line-height: 1.846;
+    border-radius: 3px;
+    -webkit-user-select: none;
+		text-transform: uppercase;
+		border: none;
+		-webkit-transition: all 0.4s;
+		-o-transition: all 0.4s;
+		transition: all 0.4s;
+}
+
+.btn-primary {
+	color: #ffffff;
+	background-color: $material-color-cyan-400;
+	border-color: transparent;
+}
+
+.btn-primary-red {
+	@extend .btn-primary;
+	background-color: $color-canyon-red;	
+}
+
+.btn-primary-grey {
+	@extend .btn-primary;
+	background-color: $color-canyon-blue;
+}
+
+.btn-secondary-red {
+	border: 1px solid $color-canyon-red;
+  color: $color-canyon-red;
+}
+
+.btn-space-col:not(:first-child) {
+	margin-left: 2rem;
+}
+
+.btn-large-size {
+	width: 10rem;
+}
+
+.btn-extra-large-size {
+	width: 200px;
+}
+
+/* =14px */
+.main {
+	display: flex;
+	flex-direction: column;
+}
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: $material-color-cyan-700;
+	border-color: #004D40;
+	height: 3rem;
+	.headerItem {
+		&.logo {
+			flex-grow: 2;
+			margin-left: 5rem;
+			color: #ffffff;
+		}
+		&.navContainer {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap; //default but being explicit, single line
+			justify-content: flex-end;
+			flex-grow: 3;
+			align-items: center;
+			margin-right: 5rem;
+			.navItem {
+				margin: 0.5rem;
+				a {
+					cursor: pointer; 
+					cursor: hand;
+					color: rgba(247, 247, 247, 0.8);
+					&.selected {
+						color: #ffffff;
+					}
+				}
+				a:link {
+					text-decoration: none;
+				}
+				a:hover {
+					color: #ffffff;
+				}
+			}
+		}
+		&.mugshotContainer {
+			padding-right: 2rem;
+			.mugshot {
+				//content:url(../static/img/mugshot.jpg);
+				height: 2.5rem;
+				width: 2.5rem;
+				border-radius: 50%;
+				vertical-align: middle;
+			}
+		}
+	}
+}
+.mainView {
+	margin-left: 5rem;
+	margin-right: 5rem;
+	margin-top: 2rem;
+}
+
+[type="email"], [type="password"] {
+	border-radius: 2px;
+	border:1px solid #c4c4c4;
+	background-color: #fff;
+	padding: 1rem;
+  height: 3rem;
+  font-size: 1rem;
+}

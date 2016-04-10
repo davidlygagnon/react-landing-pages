@@ -1,0 +1,616 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"place",
+				"placeholder"
+			],
+			[
+				"T",
+				"TWITTER_ACCESS_TOKEN_PUBLIC"
+			],
+			[
+				"is",
+				"isInitialized"
+			],
+			[
+				"facebook",
+				"facebookPictureUrl"
+			],
+			[
+				"activity",
+				"activity_id"
+			],
+			[
+				"Activity",
+				"ActivitySchema"
+			],
+			[
+				"ensure",
+				"ensureAuthenticated"
+			],
+			[
+				"selecte",
+				"selectedNoteController"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"auth",
+				"authenticateWithFacebook"
+			],
+			[
+				"Fa",
+				"Facebook"
+			],
+			[
+				"Facebook",
+				"FacebookCtrl"
+			],
+			[
+				"aut",
+				"authResponse"
+			],
+			[
+				"fac",
+				"facebook_id"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"Mon",
+				"MONGOLAB_URI"
+			],
+			[
+				"e",
+				"env"
+			],
+			[
+				"da",
+				"databaseConnection"
+			],
+			[
+				"conne",
+				"connectionInstance"
+			],
+			[
+				"con",
+				"connectionInstance"
+			],
+			[
+				"coll",
+				"collectionToDelete"
+			],
+			[
+				"del",
+				"delAll"
+			],
+			[
+				"Acti",
+				"ActivityResource"
+			],
+			[
+				"Act",
+				"ActivityResource"
+			],
+			[
+				"Phone",
+				"PhoneListCtrl"
+			],
+			[
+				"activi",
+				"activityDb"
+			],
+			[
+				"M",
+				"MONGOLAB_URI"
+			],
+			[
+				"db",
+				"dbUri"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"sub",
+				"subscribe"
+			],
+			[
+				"ac",
+				"actionForm"
+			],
+			[
+				"work",
+				"workHitlistHtml"
+			],
+			[
+				"parse",
+				"parseReceivedData"
+			],
+			[
+				"task",
+				"taskDescription"
+			],
+			[
+				"lo",
+				"loadOrInitializeTaskArray"
+			],
+			[
+				"Content",
+				"Content-type"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"serv",
+				"serveStatic"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "untitled.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":wq",
+				"BracketHighlighter: Swap Quotes"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 335.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read());",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/david/Documents/Workspace/public/react-landing-pages",
+		"/Users/david/Documents/Workspace/public/react-landing-pages/src",
+		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client",
+		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client/components",
+		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client/css",
+		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client/static/img"
+	],
+	"file_history":
+	[
+		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client/components/header.jsx",
+		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client/components/landingPage.jsx",
+		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client/css/variables.scss",
+		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client/components/routes.jsx",
+		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client/css/landingPage.scss",
+		"/Users/david/Documents/Workspace/public/react-landing-pages/.env",
+		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client/css/app.scss",
+		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client/components/terms.jsx",
+		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client/components/help.jsx",
+		"/Users/david/Documents/Workspace/public/react-landing-pages/index.html",
+		"/Users/david/Documents/Workspace/public/react-landing-pages/public/index.html",
+		"/Users/david/Documents/Workspace/private/davidlygagnon.com/src/client/components/home/home.jsx",
+		"/Users/david/Documents/Workspace/private/davidlygagnon.com/src/client/components/app.jsx",
+		"/Users/david/Documents/Workspace/private/davidlygagnon.com/src/server/server.js",
+		"/Users/david/Documents/Workspace/private/davidlygagnon.com/src/client/css/card.scss",
+		"/Users/david/Documents/Workspace/private/davidlygagnon.com/src/client/css/twitterCard.scss",
+		"/Users/david/Documents/Workspace/private/davidlygagnon.com/src/client/components/home/twitterCard.jsx",
+		"/Users/david/Documents/Workspace/private/davidlygagnon.com/.env",
+		"/Users/david/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/david/Documents/Workspace/private/davidlygagnon.com/src/client/components/home/untitled.js",
+		"/Users/david/Documents/Workspace/private/davidlygagnon.com/node_modules/twitter/lib/parser.js",
+		"/Users/david/Documents/Workspace/private/loopfy/untitled",
+		"/Users/david/Documents/Workspace/private/loopfy/davidlygagnon.sublime-project",
+		"/Users/david/Documents/Workspace/private/loopfy/Gruntfile.js",
+		"/Users/david/Documents/Workspace/private/loopfy/dist/views/index.html",
+		"/Users/david/Documents/Workspace/private/loopfy/dist/views/partials/settings.html",
+		"/Users/david/Documents/Workspace/private/loopfy/app/views/partials/signup.html",
+		"/Users/david/Documents/Workspace/private/loopfy/dist/views/partials/signup.html",
+		"/Users/david/Documents/Workspace/private/loopfy/dist/views/partials/login.html",
+		"/Users/david/Documents/Workspace/private/loopfy/lib/models/user.js",
+		"/Users/david/Documents/Workspace/private/loopfy/dist/views/partials/main.html",
+		"/Users/david/Documents/Workspace/private/loopfy/app/views/index.html",
+		"/Users/david/Documents/Workspace/private/loopfy/lib/config/passport.js",
+		"/Users/david/Documents/Workspace/private/loopfy/app/views/partials/login.html",
+		"/Users/david/Documents/Workspace/private/loopfy/app/scripts/controllers/navbar.js",
+		"/Users/david/Documents/Workspace/private/loopfy/app/scripts/controllers/login.js",
+		"/Users/david/Documents/Workspace/private/loopfy/app/scripts/services/auth.js",
+		"/Users/david/Documents/Workspace/private/loopfy/app/scripts/services/facebook.js",
+		"/Users/david/Documents/Workspace/private/loopfy/app/views/partials/main.html",
+		"/Users/david/Documents/Workspace/private/loopfy/.jshintrc",
+		"/Users/david/Documents/Workspace/private/loopfy/app/scripts/app.js",
+		"/Users/david/Documents/Workspace/private/loopfy/README.md",
+		"/Users/david/Documents/Workspace/private/loopfy/lib/routes.js",
+		"/Users/david/Documents/Workspace/public/node-js-in-action/shoutbox/routes/login.js",
+		"/Users/david/Documents/Workspace/old/loopfy2/public/views/login.html",
+		"/Users/david/Documents/Workspace/node_modules/logger/logger.js",
+		"/Users/david/Documents/Workspace/node_modules/grunt-karma/node_modules/optimist/example/line_count_options.js",
+		"/Users/david/Documents/Workspace/examples/passport-facebook/LICENSE",
+		"/Users/david/Documents/Workspace/private/loopfy/lib/controllers/users.js",
+		"/Users/david/Documents/Workspace/private/loopfy/app/views/partials/navbar.html",
+		"/Users/david/Documents/Workspace/private/loopfy/package.json",
+		"/Users/david/Documents/Workspace/public/davidlygagnon/public/index.html",
+		"/Users/david/Documents/Workspace/private/loopfy/lib/config/dummydata.js",
+		"/Users/david/Documents/Workspace/private/loopfy/bower.json",
+		"/Users/david/Documents/Workspace/private/loopfy/app/styles/main.scss",
+		"/Users/david/Documents/Workspace/public/davidlygagnon/public/algorithm.html",
+		"/Users/david/Documents/Workspace/private/loopfy/app/.buildignore",
+		"/Users/david/Documents/Workspace/public/davidlygagnon/public/javascripts/algorithm.js",
+		"/Users/david/Documents/Workspace/public/davidlygagnon/public/projects.html",
+		"/Users/david/Documents/Workspace/private/loopfy/app/scripts/controllers/dropdown.js",
+		"/Users/david/Documents/Workspace/private/loopfy/app/scripts/controllers/profile.js",
+		"/Users/david/Documents/Workspace/private/loopfy/app/views/partials/profile.html",
+		"/Users/david/Documents/Workspace/private/loopfy/lib/middleware.js",
+		"/Users/david/Documents/Workspace/old/loopfy/dist/lib/models/user.js",
+		"/Users/david/Documents/Workspace/old/loopfy/app/scripts/controllers/signup.js",
+		"/Users/david/Documents/Workspace/private/loopfy/lib/controllers/api.js",
+		"/Users/david/Documents/Workspace/private/loopfy/app/scripts/controllers/auth.js",
+		"/Users/david/Documents/Workspace/sublime_config/famous-starter-kit/boilerplate/index.html",
+		"/Users/david/Documents/Workspace/famous-starter-kit/boilerplate/src/main.js",
+		"/Users/david/Documents/Workspace/checkin/server/server.js",
+		"/Users/david/Documents/Workspace/checkin/server/database.js",
+		"/Users/david/Documents/Workspace/checkin/server/route/checkins.js",
+		"/Users/david/Documents/Workspace/checkin/public/index.html",
+		"/Users/david/Documents/Workspace/checkin/public/checkin.css",
+		"/Users/david/Documents/Workspace/checkin/public/js/main.js",
+		"/Users/david/Documents/Workspace/loopfy2/public/core.js",
+		"/Users/david/Documents/Workspace/loopfy2/public/js/app.js",
+		"/Users/david/Documents/Workspace/loopfy/lib/controllers/index.js",
+		"/Users/david/Documents/Workspace/loopfy2/public/views/login.html",
+		"/Users/david/Documents/Workspace/loopfy2/public/views/index.html",
+		"/Users/david/Documents/Workspace/loopfy2/server.js",
+		"/Users/david/Documents/Workspace/loopfy2/public/index.html",
+		"/Users/david/Documents/Workspace/loopfy2/public/views/activities.html",
+		"/Users/david/Documents/Workspace/loopfy/lib/routes.js",
+		"/Users/david/Documents/Workspace/loopfy/lib/config/express.js",
+		"/Users/david/Documents/Workspace/loopfy2/public/js/core.js",
+		"/Users/david/Documents/Workspace/loopfy/server.js",
+		"/Users/david/Documents/Workspace/loopfy2/public/login.html",
+		"/Users/david/Documents/Workspace/loopfy/lib/middleware.js",
+		"/Users/david/Documents/Workspace/angular-client-side-auth/server/routes.js",
+		"/Users/david/Documents/Workspace/angular-client-side-auth/server.js",
+		"/Users/david/Documents/Workspace/loopfy/lib/models/user.js",
+		"/Users/david/Documents/Workspace/loopfy2/models/user.js",
+		"/Users/david/Documents/Workspace/loopfy2/models/activity.js",
+		"/Users/david/Documents/Workspace/loopfy/lib/config/config.js",
+		"/Users/david/Documents/Workspace/famous_tutorial/project3/src/views/EmptyView.js",
+		"/Users/david/Documents/Workspace/famous_tutorial/project3/src/views/AppView.js",
+		"/Users/david/Documents/Workspace/famous_tutorial/project3/src/views/PageView.js",
+		"/Users/david/Documents/Workspace/famous_tutorial/project3/src/main.js",
+		"/Users/david/Documents/Workspace/famous_tutorial/project2/src/main.js",
+		"/Users/david/Documents/Workspace/famous_tutorial/project2/index.html",
+		"/Users/david/Documents/Workspace/famous_tutorial/project2/css/app.css",
+		"/Users/david/Documents/Workspace/famous_tutorial/project3/index.html",
+		"/Users/david/Documents/Workspace/passport-facebook/examples/login/app.js",
+		"/Users/david/Documents/Workspace/angular-client-side-auth/server/models/User.js",
+		"/Users/david/Documents/Workspace/joostin/app/server/route/activity.js",
+		"/Users/david/Documents/Workspace/joostin/app/server/server.js",
+		"/Users/david/Documents/Workspace/simpleFBAuth/client/js/routingConfig.js",
+		"/Users/david/Documents/Workspace/simpleFBAuth/User.js",
+		"/Users/david/Documents/Workspace/loopfy/lib/controllers/users.js",
+		"/Users/david/Documents/Workspace/simpleFBAuth/server/controllers/auth.js",
+		"/Users/david/Documents/Workspace/simpleFBAuth/server/routes.js",
+		"/Users/david/Documents/Workspace/simpleFBAuth/server/controllers/user.js",
+		"/Users/david/Documents/Workspace/simpleFBAuth/server.js",
+		"/Users/david/Documents/Workspace/simpleFBAuth/server/models/User.js",
+		"/Users/david/Documents/Workspace/loopfy/lib/config/passport.js",
+		"/Users/david/Documents/Workspace/loopfy/app/scripts/services/auth.js",
+		"/Users/david/Documents/Workspace/loopfy/Gruntfile.js",
+		"/Users/david/Documents/Workspace/loopfy/app/scripts/services/session.js",
+		"/Users/david/Documents/Workspace/loopfy/app/scripts/services/user.js",
+		"/Users/david/Documents/Workspace/loopfy/app/scripts/controllers/signup.js",
+		"/Users/david/Documents/Workspace/checkin/public/lib/famous/famous-startersrc/main.js",
+		"/Users/david/Documents/Workspace/checkin/README.md",
+		"/Users/david/Downloads/davidshimjs-qrcodejs-07f829d/README.md",
+		"/Users/david/Downloads/famous-starter-0.1.1/famous-starterREADME.md",
+		"/Users/david/Documents/Workspace/checkin/server/model/checkins.js",
+		"/Users/david/Documents/Workspace/checkin/server/model/checkinModel.js",
+		"/Users/david/Documents/Workspace/dlygagnon/web.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"*.scss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"section-header",
+			"section-header-odd",
+			"subfooter",
+			"footer",
+			"https",
+			"grunt.filerev.summary",
+			"login",
+			"false",
+			"/script",
+			"script",
+			"publish_actions",
+			"checkLoginState",
+			"testAPI",
+			"fbAsyncInit",
+			"require bootstrap",
+			"userInfo",
+			"Auth.createUser",
+			"require('User');",
+			"callback",
+			"console.log",
+			"app.set",
+			"cookieParser",
+			"Activity",
+			"html",
+			"view",
+			"activities",
+			"mongoose.connect",
+			"\n   ",
+			"express",
+			"8080",
+			"node-inspector",
+			"nodemon",
+			"concurrent",
+			"node-inspector",
+			"nodemon",
+			"task",
+			"/api/users",
+			"mongoose.connect",
+			"famous_symbol_transparent",
+			"jumbotron",
+			"<!-- ",
+			"stylesheet",
+			"foundation",
+			"foundation.js",
+			"normalize.css",
+			"Intiate a login session",
+			"logIn",
+			"logIn:",
+			"login",
+			"AuthCtrl",
+			"login",
+			"FACEBOOK_APP_ID",
+			"ensureAuthenticated",
+			"requestCurrentUser",
+			"urbanFun",
+			"activityDb",
+			"/$",
+			"scope",
+			"aside",
+			"/>\n",
+			"{\n",
+			"autom",
+			"\n      ",
+			"assignguess",
+			":phoneId",
+			"json",
+			"app",
+			"express"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"dbInstance",
+			"server"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "untitled.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"parser.js",
+				"node_modules/twitter/lib/parser.js"
+			],
+			[
+				"login.js",
+				"private/loopfy/app/scripts/controllers/login.js"
+			],
+			[
+				"pack",
+				"dlygagnon/package.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"vintage":
+		{
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 338.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

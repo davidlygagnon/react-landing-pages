@@ -1,0 +1,46 @@
+.grid {
+}
+.grid-row-item:not(:last-child) {
+	margin-bottom: 1rem;
+}
+.grid-row-item-col{
+	@extend .grid-row-item;
+	display: flex;
+	flex-direction: row;
+}
+.grid-row-item-row {
+	@extend .grid-row-item;
+	display: flex;
+	flex-direction: column;
+}
+
+.grid-row-item-col-no-spacing {
+	display: flex;
+	flex-direction: row;
+}
+.grid-row-item-row-no-spacing {
+	display: flex;
+	flex-direction: column;
+}
+
+.grid-row-item-row-center {
+	@extend .grid-row-item-row;
+	align-items: center;
+}
+
+.grid-row-item-col-center {
+	@extend .grid-row-item-col;
+	align-items: center;
+}
+
+.grid-item {
+	padding: 12px;
+}
+.grid-item-1 {
+	@extend .grid-item;
+	flex: 1;
+}
+.grid-item-2 {
+	@extend .grid-item;
+	flex: 2;
+}

@@ -1,0 +1,99 @@
+@import 'variables';
+.landing-page {
+	.main-title-container {
+		padding: 10rem 0;
+		background-color: #18bc9c;
+		color: white;
+		background-image: url(../static/img/background_image.jpg);
+		background-position: center;
+		background-size: cover;
+	}
+	.title-row {
+		align-items: center;
+	}
+
+	.button-row {
+		justify-content: center;
+	}
+
+	.title {
+		font-size: 4rem;
+		font-family: $josefin-sans;
+	}
+
+	.subtitle {
+		margin-bottom: 1.5rem;
+		font-size: $extra-large-font;
+	}
+
+	.title-description {
+		margin-top: 1rem;
+		font-size: $large-font;
+		text-align: center;
+	}
+
+	.description {
+		margin-top: 0.5rem;
+		font-family: $josefin-sans;
+		font-size: $caption-font-size;
+		text-align: center;
+	}
+
+	.slogan {
+		padding-top:0;
+		font-size: 1.5rem;
+		font-family: $josefin-sans;
+	}
+
+	.section-header {
+		font-family: $josefin-sans;
+		padding: 5rem 2rem;
+		font-size: $extra-large-font;
+		align-items: center;
+
+		&.odd {
+			color: white;
+			background-color: $material-color-cyan-600;
+
+			.subtitle {
+				font-size: $extra-large-font;
+			}
+		}
+
+		&.even {
+			color: #18323F;
+			background-color: white;
+		}
+	}
+
+	.image-description {
+		border-radius: 3rem;
+	}
+
+	.subfooter {
+		font-family: $josefin-sans;
+		margin:0;
+		background-color: $material-color-cyan-700; 
+		color: white;
+		justify-content: center;
+		align-items: stretch;
+		text-align: center;
+
+		.grid-item-1 {
+			padding: 2px 0;
+		}
+
+		.heading {
+			margin: 1rem 0;
+			font-size: $large-font;
+		}
+
+	}
+
+	.footer {
+		font-family: $josefin-sans;
+		background-color: #1B141A;
+		color: white;
+		text-align: center;
+	}
+}

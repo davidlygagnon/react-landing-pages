@@ -1,0 +1,39 @@
+@import 'variables';
+
+.login {
+  .btn-login {
+    padding: 10px;
+  }
+
+  .btn-facebook {
+    @extend .btn-login;
+    background-color: $color-facebook-blue;
+    text-transform: none;
+    font-size: 1rem;
+  }
+
+  .btn-google {
+    @extend .btn-login;
+    background-color: $color-google-red;
+    text-transform: none;
+    font-size: 1rem;
+  }
+
+  .btn-login {
+    width:100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .create-account-row {
+    justify-content: space-between;
+  }
+
+  .link-black {
+    color: $color-link-black;
+  }
+}
