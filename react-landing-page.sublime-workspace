@@ -160,10 +160,18 @@
 	"buffers":
 	[
 		{
-			"file": "untitled.sublime-project",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 45,
+				"buffer_size": 178,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/client/css/variables.scss",
+			"settings":
+			{
+				"buffer_size": 830,
 				"line_ending": "Unix"
 			}
 		}
@@ -231,10 +239,15 @@
 		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client",
 		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client/components",
 		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client/css",
-		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client/static/img"
+		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client/static/img",
+		"/Users/david/Documents/Workspace/public/react-landing-pages/src/server"
 	],
 	"file_history":
 	[
+		"/Users/david/Documents/Workspace/public/react-landing-pages/package.json",
+		"/Users/david/Documents/Workspace/public/react-landing-pages/README.md",
+		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client/entry.js",
+		"/Users/david/Documents/Workspace/public/react-landing-pages/src/server/server.js",
 		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client/components/header.jsx",
 		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client/components/landingPage.jsx",
 		"/Users/david/Documents/Workspace/public/react-landing-pages/src/client/css/variables.scss",
@@ -358,11 +371,7 @@
 		"/Users/david/Documents/Workspace/loopfy/app/scripts/controllers/signup.js",
 		"/Users/david/Documents/Workspace/checkin/public/lib/famous/famous-startersrc/main.js",
 		"/Users/david/Documents/Workspace/checkin/README.md",
-		"/Users/david/Downloads/davidshimjs-qrcodejs-07f829d/README.md",
-		"/Users/david/Downloads/famous-starter-0.1.1/famous-starterREADME.md",
-		"/Users/david/Documents/Workspace/checkin/server/model/checkins.js",
-		"/Users/david/Documents/Workspace/checkin/server/model/checkinModel.js",
-		"/Users/david/Documents/Workspace/dlygagnon/web.js"
+		"/Users/david/Downloads/davidshimjs-qrcodejs-07f829d/README.md"
 	],
 	"find":
 	{
@@ -474,24 +483,67 @@
 			[
 				{
 					"buffer": 0,
-					"file": "untitled.sublime-project",
-					"semi_transient": true,
+					"file": "README.md",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 45,
+						"buffer_size": 178,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								157,
+								157
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": true,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_insert",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 42
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/client/css/variables.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								440,
+								421
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"vintage":
 							{
 								"action": null,
@@ -503,14 +555,14 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 0
+								"xpos": 15
 							}
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
