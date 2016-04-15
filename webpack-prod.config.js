@@ -37,6 +37,10 @@ module.exports = {
 		}
 	},
 
+	resolveLoader: {
+	  root: path.join(__dirname, 'node_modules')
+	},
+
 	module: {
 		preLoaders: [{
 			test: /node_modules\/jquery\/src\/selector-sizzle\.js$/,
