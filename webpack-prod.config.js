@@ -48,11 +48,11 @@ module.exports = {
 		}],
 		loaders: [{
 			test: /\.jsx?$/,
-			loader: 'babel?stage=0',
+			loader: 'babel-loader?stage=0',
 			include: path.join(__dirname, 'src')
 		}, {
 			test: /\.js?$/,
-			loader: 'babel?stage=0',
+			loader: 'babel-loader?stage=0',
 			exclude: /node_modules/
 		}, {
 			test: /\.scss?$/,
