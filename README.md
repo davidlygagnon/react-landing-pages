@@ -11,7 +11,7 @@ This project is a full bootstrap application with a collection of landing pages.
   e) Webpack
 
 # Installation
-1. Once you have cloned the repo, run npm install. This will install all node_modules needed to run the applicaiton.
+1. Once you have cloned the repo, run npm install. This will install the node modules needed to run the applicaiton.
 
 
 # What's included
