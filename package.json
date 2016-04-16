@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack --config ./webpack.config.js --progress --colors && node ./src/server/server.js",
-    "build": "webpack --config ./webpack-prod.config.js --progress --colors",
+    "postinstall": "webpack --config ./webpack-prod.config.js --progress --colors",
     "start": "node ./src/server/server.js"
   },
   "repository": {
