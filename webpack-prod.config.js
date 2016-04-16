@@ -37,10 +37,6 @@ module.exports = {
 		}
 	},
 
-	resolveLoader: {
-	  root: path.join(__dirname, 'node_modules')
-	},
-
 	module: {
 		preLoaders: [{
 			test: /node_modules\/jquery\/src\/selector-sizzle\.js$/,
@@ -52,11 +48,11 @@ module.exports = {
 		}],
 		loaders: [{
 			test: /\.jsx?$/,
-			loader: 'babel-loader?stage=0',
+			loader: 'babel?stage=0',
 			include: path.join(__dirname, 'src')
 		}, {
 			test: /\.js?$/,
-			loader: 'babel-loader?stage=0',
+			loader: 'babel?stage=0',
 			exclude: /node_modules/
 		}, {
 			test: /\.scss?$/,
