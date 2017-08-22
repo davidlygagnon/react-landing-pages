@@ -1,6 +1,13 @@
 var path = require('path');
 var webpack = require('webpack');
 
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+
+const extractSass = new ExtractTextPlugin({
+    filename: "[name].[contenthash].css",
+    disable: process.env.NODE_ENV === "development"
+});
+
 module.exports = {
 	devtool: 'source-map',
 
@@ -16,8 +23,10 @@ module.exports = {
 	},
 
 	plugins: [
-		new webpack.optimize.CommonsChunkPlugin('vendor', 'vendors.js'),
-		new webpack.optimize.DedupePlugin(),
+		new webpack.optimize.CommonsChunkPlugin({
+			name: 'vendor',
+			filename: 'vendors.js'
+		}),
 		new webpack.optimize.UglifyJsPlugin({
 			minimize: true,
 			compress: {
@@ -27,41 +36,53 @@ module.exports = {
 		new webpack.ProvidePlugin({
 			$: "jquery",
 			jQuery: "jquery"
-		})
+		}),
+		extractSass
 	],
 
 	resolve: {
-		extensions: ['', '.js', '.jsx', '.scss'],
+		extensions: ['.js', '.jsx', '.scss'],
 		alias: {
 			jquery: path.join(__dirname, 'node_modules/jquery/src/jquery.js')
 		}
 	},
 
 	module: {
-		preLoaders: [{
-			test: /node_modules\/jquery\/src\/selector-sizzle\.js$/,
-			loader: 'string-replace',
-			query: {
-				search: '../external/sizzle/dist/sizzle',
-				replace: 'sizzle'
+		rules: [
+			{
+				test: /node_modules\/jquery\/src\/selector-sizzle\.js$/,
+				loader: 'string-replace',
+				query: {
+					search: '../external/sizzle/dist/sizzle',
+					replace: 'sizzle'
+				}
+			},
+			{
+				test: /\.jsx?$/,
+				use: {
+					loader: 'babel-loader',
+					options: {
+						presets: ['react', 'es2015', 'stage-0']
+					}
+				}
+			},
+			{
+        test: /\.scss$/,
+        use: extractSass.extract({
+          use: [{
+            loader: "css-loader"
+          }, {
+          	loader: "sass-loader"
+          }],
+          // use style-loader in development
+          fallback: "style-loader"
+        })
+      },
+			{
+				test: /\.(png|gif|jpg)$/,
+				loader: 'url-loader',
+				options: { limit: '25000' }
 			}
-		}],
-		loaders: [{
-			test: /\.jsx?$/,
-			loader: 'babel?stage=0',
-			include: path.join(__dirname, 'src')
-		}, {
-			test: /\.js?$/,
-			loader: 'babel?stage=0',
-			exclude: /node_modules/
-		}, {
-			test: /\.scss?$/,
-			loader: 'style!css!sass',
-			include: path.join(__dirname, 'src')
-		}, {
-			test: /\.(png|jpg|gif)$/,
-			loader: 'url?limit=25000&name=[name].[ext]?[hash]',
-			include: path.join(__dirname, 'src/client/static')
-		}]
+		]
 	}
 }
