@@ -26,47 +26,59 @@ module.exports = {
 	],
 
 	resolve: {
-		extensions: ['', '.js', '.jsx', '.scss'],
+		extensions: ['.js', '.jsx', '.scss'],
 		alias: {
 			jquery: path.join(__dirname, 'node_modules/jquery/src/jquery.js')
 		}
 	},
 
-	proxy: {
-		'/api/*': {
-			target: 'http://localhost:5000',
-			secure: false,
-		}
-	},
+	devServer: {
+		proxy: {
+ 	 		'/api/*': 'http://localhost:3000'
+		},
+		contentBase: path.join(__dirname, 'public'), // boolean | string | array, static file location
+		compress: true, // enable gzip compression
+		historyApiFallback: true, // true for index.html upon 404, object for multiple paths
+		hot: true, // hot module replacement. Depends on HotModuleReplacementPlugin
+		https: false, // true for self-signed, object for cert authority
+		noInfo: true, // only errors & warns on hot reload
+		// ...
+ 	},
 
 	module: {
-		preLoaders: [{
-			test: /node_modules\/jquery\/src\/selector-sizzle\.js$/,
-			loader: 'string-replace',
-			query: {
-				search: '../external/sizzle/dist/sizzle',
-				replace: 'sizzle'
+		rules: [
+			{
+				test: /node_modules\/jquery\/src\/selector-sizzle\.js$/,
+				loader: 'string-replace',
+				query: {
+					search: '../external/sizzle/dist/sizzle',
+					replace: 'sizzle'
+				}
+			},
+			{
+				test: /\.jsx?$/,
+				use: {
+					loader: 'babel-loader',
+					options: {
+						presets: ['react', 'es2015', 'stage-0']
+					}
+				}
+			},
+			{
+        test: /\.scss$/,
+        use: [{
+            loader: "style-loader" // creates style nodes from JS strings
+        }, {
+            loader: "css-loader" // translates CSS into CommonJS
+        }, {
+            loader: "sass-loader" // compiles Sass to CSS
+        }]
+      },
+			{
+				test: /\.(png|gif|jpg)$/,
+				loader: 'url-loader',
+				options: { limit: '25000' }
 			}
-		}],
-		loaders: [{
-			test: /\.jsx$/,
-			loader: 'react-hot!babel?stage=0',
-			include: path.join(__dirname, 'src')
-		}, {
-			test: /\.js$/,
-			loader: 'babel?stage=0',
-			include: path.join(__dirname, 'src')
-		}, {
-			test: /\.scss?$/,
-			loader: 'style!css!sass',
-			include: path.join(__dirname, 'src')
-		}, {
-			test: /\.css$/,
-			loader: 'style!css'
-		}, {
-			test: /\.(png|jpg|gif)$/,
-			loader: 'url?limit=25000&name=[name].[ext]?[hash]',
-			include: path.join(__dirname, 'src/client/static')
-		}]
+		]
 	}
 }

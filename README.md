@@ -15,11 +15,6 @@ The following technologies are being used:
 # Installation
 1. Once you have cloned the repo, run npm install. This will install the node modules needed to run the applicaiton.
 
-# What's included
-
-# Demo on Heroku
-https://pure-coast-95501.herokuapp.com/
-
 # How to run the app locally
 npm run dev
 
@@ -31,3 +26,8 @@ Webpack and other npm modules to build the app are in devDependencies. In order 
 heroku config:set NPM_CONFIG_PRODUCTION=false
 
 which will allow heroku to install modules in devDependencies.
+
+# Latest changes
+
+1. Updated packages to latest versions
+2. Updated webpack config to v3

@@ -12,7 +12,7 @@ var https = require('https');
 
 // load environment file
 if (isDevelopment) {
-	env(__dirname + '../../../.env');
+	env(__dirname + '../../../.env', {raise: false});
 }
 
 app.use(express.static(static_path));
