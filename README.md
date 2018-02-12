@@ -1,8 +1,10 @@
 # react-landing-pages
-This repo contains a collection of landing pages written in React.js. At the moment, I have only one landing page, but I'm hoping that with time, I'll have converted (or reactified) a few landing pages that I find on the web. The goal is that you can clone this project, use one of the landing page that you like, modify it, and get your own web app up and running in no time.
+This repo contains a collection of landing pages written in React.js. At the moment, I have only one landing page. With time, I'm hoping that I'll have converted (or reactified) a few more landing pages. The goal is that you can clone this project, use one of the landing pages that you like, modify it, and get up to speed building your app in no time.
 
 # Introduction
-This project is a full bootstrap application with a collection of landing pages. The following technologies are being used:
+This project is more than just a landing page. It's a full bootstrapped application. 
+
+The following technologies are being used:
 
   a) React.js (also using React router)
   b) scss pre-processor
@@ -12,7 +14,6 @@ This project is a full bootstrap application with a collection of landing pages.
 
 # Installation
 1. Once you have cloned the repo, run npm install. This will install the node modules needed to run the applicaiton.
-
 
 # What's included
 
