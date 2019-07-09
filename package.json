@@ -51,7 +51,7 @@
     "sizzle": "^2.3.0",
     "string-replace-loader": "^1.0.0",
     "style-loader": "^0.12.3",
-    "url-loader": "^0.5.9",
+    "url-loader": "^1.1.2",
     "webpack": "^3.5.5",
     "webpack-dev-server": "^2.7.1"
   }
