@@ -45,7 +45,7 @@
     "node-env-file": "^0.1.8",
     "node-sass": "^4.5.3",
     "path": "^0.11.14",
-    "react-hot-loader": "^1.2.8",
+    "react-hot-loader": "^4.4.0",
     "resolve-url-loader": "^3.1.0",
     "sass-loader": "^6.0.6",
     "sizzle": "^2.3.0",
