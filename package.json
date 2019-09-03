@@ -41,7 +41,7 @@
     "css-loader": "^0.28.5",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^0.8.4",
-    "image-webpack-loader": "^5.0.0",
+    "image-webpack-loader": "^6.0.0",
     "node-env-file": "^0.1.8",
     "node-sass": "^4.5.3",
     "path": "^0.11.14",
